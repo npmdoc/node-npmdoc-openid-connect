@@ -74,32 +74,6 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.openid-connect.defaults">module openid-connect.defaults</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.openid-connect.defaults.defaults">
-            function <span class="apidocSignatureSpan">openid-connect.</span>defaults
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.openid-connect.oidc">module openid-connect.oidc</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.openid-connect.oidc.oidc">
-            function <span class="apidocSignatureSpan">openid-connect.</span>oidc
-            <span class="apidocSignatureSpan">(options)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
 </ol></div>
 
 <div class="apidocSectionDiv">
@@ -139,78 +113,6 @@ var oidc = require('openid-connect').oidc({orm: orm});
 
     <h2>
         <a href="#apidoc.element.openid-connect.oidc" id="apidoc.element.openid-connect.oidc">
-        function <span class="apidocSignatureSpan">openid-connect.</span>oidc
-        <span class="apidocSignatureSpan">(options)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">oidc = function (options) {
-    return new OpenIDConnect(options);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-You can add it to your Connect or Express application as another middleware.
-Be sure to enable the `bodyParser` and `query` middleware.
-
-To use it inside your project, just do:
-
-```
-var oidc = require('openid-connect').<span class="apidocCodeKeywordSpan">oidc</span>(options);
-```
-
-and then, for example, with express
-
-```
-app.get('/authorization', oidc.auth());
-```
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.openid-connect.defaults" id="apidoc.module.openid-connect.defaults">module openid-connect.defaults</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.openid-connect.defaults.defaults" id="apidoc.element.openid-connect.defaults.defaults">
-        function <span class="apidocSignatureSpan">openid-connect.</span>defaults
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">defaults = function () {
-    return defaults;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-You can replace the whole OpenIDConnect modelling instance with your own.
-
-__Beware__ that you __must__ implement at _least_ all models and exept for `user` model, all attributes.
-
-If in your models, you set `autoPK` to false, they __must__ have an `id` attribute that is primary key.
-
-_Notice_ that you can get OpenIDConnect's default models with `require('openid-connect').<span class="apidocCodeKeywordSpan
-">defaults</span>().models`.
-
-```
-var orm = new modelling(options);
-
-var oidc = require('openid-connect').oidc({orm: orm});
-```
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.openid-connect.oidc" id="apidoc.module.openid-connect.oidc">module openid-connect.oidc</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.openid-connect.oidc.oidc" id="apidoc.element.openid-connect.oidc.oidc">
         function <span class="apidocSignatureSpan">openid-connect.</span>oidc
         <span class="apidocSignatureSpan">(options)</span>
         </a>

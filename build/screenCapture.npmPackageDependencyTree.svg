@@ -52,7 +52,7 @@
 <tspan x="10" y="794">  │   │ ├── @sailshq/lodash@3.10.2 </tspan>
 <tspan x="10" y="810">  │   │ └── validator@4.4.0 </tspan>
 <tspan x="10" y="826">  │   ├── bluebird@2.9.34 </tspan>
-<tspan x="10" y="842">  │   ├── deep-diff@0.3.4 </tspan>
+<tspan x="10" y="842">  │   ├── deep-diff@0.3.6 </tspan>
 <tspan x="10" y="858">  │   ├── lodash@3.9.3 </tspan>
 <tspan x="10" y="874">  │   ├─┬ prompt@0.2.14 </tspan>
 <tspan x="10" y="890">  │   │ ├── pkginfo@0.4.0 </tspan>
