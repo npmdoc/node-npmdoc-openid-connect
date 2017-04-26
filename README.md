@@ -1,4 +1,7 @@
-# api documentation for  [openid-connect (v1.2.4)](https://github.com/agmoyano/OpenIDConnect)  [![npm package](https://img.shields.io/npm/v/npmdoc-openid-connect.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-openid-connect) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-openid-connect.svg)](https://travis-ci.org/npmdoc/node-npmdoc-openid-connect)
+# npmdoc-openid-connect
+
+#### basic api documentation for  [openid-connect (v1.2.4)](https://github.com/agmoyano/OpenIDConnect)  [![npm package](https://img.shields.io/npm/v/npmdoc-openid-connect.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-openid-connect) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-openid-connect.svg)](https://travis-ci.org/npmdoc/node-npmdoc-openid-connect)
+
 #### This is an fully functional OAuth 2 server implementation, with support for OpenID Connect specification. Based on https://github.com/ammmir/node-oauth2-provider.
 
 [![NPM](https://nodei.co/npm/openid-connect.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/openid-connect)
@@ -79,7 +82,8 @@
         "url": "git+https://github.com/agmoyano/OpenIDConnect.git"
     },
     "scripts": {},
-    "version": "1.2.4"
+    "version": "1.2.4",
+    "bin": {}
 }
 ```
 
